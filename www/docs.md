@@ -715,8 +715,10 @@ Note that all events are fired with two different names
 * Camel Case
 * Kebab Case
 
-So, for example, you can listen for `htmx:afterSwap` or for `htmx:after-swap`.  This facilitates interoperability
-with libraries like [Alpine.js](https://github.com/alpinejs/alpine/).
+So, for example, you can listen for `htmx:afterSwap` or for `htmx:after-swap`. This facilitates interoperability
+with other libraries.
+ 
+:warning: In case of [Alpine.js](https://github.com/alpinejs/alpine/), you **should** use Kebab Case.
 
 ### Logging
 
